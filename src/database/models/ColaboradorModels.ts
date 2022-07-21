@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize/types";
 import { db } from "../db";
 
-export const ColaboradoresModels = db.define('colaboradores', {
+export const ColaboradorModels = db.define('colaborador', {
     id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
@@ -45,4 +45,4 @@ export const ColaboradoresModels = db.define('colaboradores', {
         allowNull: true
     }
     
-})
+});
